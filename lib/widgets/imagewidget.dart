@@ -37,6 +37,7 @@ class _ImageWidgetState extends State<ImageWidget> {
               return DropdownMenuItem<String>(child: Text(value));
             }).toList(),
           ),
+          Container(),
         ],
       ),
     );
